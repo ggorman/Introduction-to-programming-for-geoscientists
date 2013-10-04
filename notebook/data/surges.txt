@@ -1,6 +1,0 @@
-MONTHLY EXTREME SURGES
-Site,day(dd/mm/yyyy) time (24 hours),minimum surge value (metres),day(dd/mm/yyyy) time (24 hours),maximum surge value (metres)
-AVONMOUTH,04/01/2012 04:15,-.633,03/01/2012 05:45,1.396
-AVONMOUTH,02/02/2012 04:30,-.77,22/02/2012 14:00,.585
-AVONMOUTH,12/03/2012 05:00,-.778,31/03/2012 06:45,.71
-AVONMOUTH,01/04/2012 13:45,-.285,01/04/2012 08:00,.607
