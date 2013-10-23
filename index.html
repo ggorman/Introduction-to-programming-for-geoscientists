@@ -12,84 +12,78 @@
   </head>
 
   <body>
-
     <header>
-      <div class="container">
-        <h1>Introduction to programming for geoscientists</h1>
-        <h2>Based on the text book &quot;A Primer on Scientific Programming with Python&quot; by Hans Petter Langtangen.</h2>
+    <div class="container">
+      <h1>Introduction to programming for geoscientists</h1>
+      <h2>Based on the text book &quot;A Primer on Scientific Programming with Python&quot; by Hans Petter Langtangen.</h2>
 
-        <section id="downloads">
-          <a href="https://github.com/ggorman/Introduction-to-programming-for-geoscientists/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/ggorman/Introduction-to-programming-for-geoscientists/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/ggorman/Introduction-to-programming-for-geoscientists" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
+      <section id="downloads">
+      <a href="https://github.com/ggorman/Introduction-to-programming-for-geoscientists/zipball/master" class="btn">Download as .zip</a>
+      <a href="https://github.com/ggorman/Introduction-to-programming-for-geoscientists/tarball/master" class="btn">Download as .tar.gz</a>
+      <a href="https://github.com/ggorman/Introduction-to-programming-for-geoscientists" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+      </section>
+    </div>
     </header>
 
     <div class="container">
       <section id="main_content">
-        <h2>
-<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h2>
+      <h2>
+        <a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h2>
 
-<p>This is a 1st year undergraduate course for geoscientists taught by <a href="http://www.imperial.ac.uk/people/g.gorman">Gerard Gorman</a> at <a href="http://www3.imperial.ac.uk/earthscienceandengineering">Imperial College London</a>. The course has two objectives:</p>
+      <p>This is a 1st year undergraduate course for geoscientists taught by <a href="http://www.imperial.ac.uk/people/g.gorman">Gerard Gorman</a> at <a href="http://www3.imperial.ac.uk/earthscienceandengineering">Imperial College London</a>. The course has two objectives:</p>
 
-<ul>
-<li>Learn the basic principles of computer programming. This understanding will form the basis for learning many other programming languages.</li>
-<li>Become proficient at Python programming as it is currently one of the most commonly used languages in computational science.</li>
-</ul><p>The lectures notes are written in <a href="http://ipython.org/notebook.html">IPython notebook</a> format. To take a quick view of the individual lectures you can simple click on the links below (uses the online tool <a href="http://nbviewer.ipython.org">http://nbviewer.ipython.org</a>).</p>
+      <ul>
+        <li>Learn the basic principles of computer programming. This understanding will form the basis for learning many other programming languages.</li>
+        <li>Become proficient at Python programming as it is currently one of the most commonly used languages in computational science.</li>
+      </ul><p>The lectures notes are written in <a href="http://ipython.org/notebook.html">IPython notebook</a> format. To take a quick view of the individual lectures you can simple click on the links below (uses the online tool <a href="http://nbviewer.ipython.org">http://nbviewer.ipython.org</a>).</p>
 
-<p>You can use Python/IPython on a wide range of computing platforms including Windows, Linux and Mac. If you have your own laptop that you want to use then ask for assistance in the lecture to get everything setup. </p>
+      <p>You can use Python/IPython on a wide range of computing platforms including Windows, Linux and Mac. If you have your own laptop that you want to use then ask for assistance in the lecture to get everything setup. </p>
 
-<p>In the lecture we are going to run everything off the dept student linux servers - student.ese.ic.ac.uk and student2.ese.ic.ac.uk. In the first lecture you will be shown how to <em>ssh</em> to this server. Once you are logged in you will want to get a copy of the lecture material. To do this you execute the following command at the terminal:</p>
+      <p>In the lecture we are going to run everything off the dept student linux servers - student.ese.ic.ac.uk and student2.ese.ic.ac.uk. In the first lecture you will be shown how to <em>ssh</em> to this server. Once you are logged in you will want to get a copy of the lecture material. To do this you execute the following command at the terminal:</p>
 
-<pre><code>git clone https://github.com/ggorman/Introduction-to-programming-for-geoscientists.git
-</code></pre>
+      <pre><code>git clone https://github.com/ggorman/Introduction-to-programming-for-geoscientists.git</code></pre>
 
-<p>If you type <em>ls</em> you will see that this has created a directory <em>Introduction-to-programming-for-geoscientists/</em>. Navigate to the directory containing the course material using the command:</p>
+      <p>If you type <em>ls</em> you will see that this has created a directory <em>Introduction-to-programming-for-geoscientists/</em>. Navigate to the directory containing the course material using the command:</p>
 
-<pre><code>cd Introduction-to-programming-for-geoscientists/notebook
-</code></pre>
+      <pre><code>cd Introduction-to-programming-for-geoscientists/notebook</code></pre>
 
-<p>The lecture material will be updated throughout the term to add exercises and sample solutions to previous weeks. So you should <em>pull</em> updates regularly by navigating to that directory and issuing the command:</p>
+      <p>The lecture material will be updated throughout the term to add exercises and sample solutions to previous weeks. So you should <em>pull</em> updates regularly by navigating to that directory and issuing the command:</p>
 
-<pre><code>git pull
-</code></pre>
+      <pre><code>git pull</code></pre>
 
-<p>To get started with ipython notebook issue the following command:</p>
+      <p>To get started with ipython notebook issue the following command:</p>
 
-<pre><code>ipython notebook
-</code></pre>
+      <pre><code>ipython notebook</code></pre>
 
-<p><em>google-chrome</em> should start up and you should see the list of lectures. Start by clicking on lecture 0.</p>
+      <p><em>google-chrome</em> should start up and you should see the list of lectures. Start by clicking on lecture 0.</p>
 
-<ul>
-<li><a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-0-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 0 (Introduction)</a></li>
-<li>
-<a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 1</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists-Exercises.ipynb?raw=true">Exercises</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists-Solutions.ipynb?raw=true">Solutions</a>
-</li>
-<li>
-<a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 2</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists-Exercises.ipynb?raw=true">Exercises</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists-Solutions.ipynb?raw=true">Solutions</a>
-</li>
-<li>
-<a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-3-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 3</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-3-Introduction-to-programming-for-geoscientists-Exercises.ipynb?raw=true">Exercises</a>
-</li>
-<li><a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-4-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 4</a></li>
-<li><a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-5-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 5</a></li>
-<li><a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-6-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 6</a></li>
-</ul>
+      <ul>
+        <li><a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-0-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 0 (Introduction)</a></li>
+        <li>
+        <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 1</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists-Exercises.ipynb?raw=true">Exercises</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists-Solutions.ipynb?raw=true">Solutions</a>
+        </li>
+        <li>
+        <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 2</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists-Exercises.ipynb?raw=true">Exercises</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists-Solutions.ipynb?raw=true">Solutions</a>
+        </li>
+        <li>
+        <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-3-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 3</a> <a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-3-Introduction-to-programming-for-geoscientists-Exercises.ipynb?raw=true">Exercises</a>
+        </li>
+        <li><a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-4-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 4</a></li>
+        <li><a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-5-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 5</a></li>
+        <li><a href="http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-6-Introduction-to-programming-for-geoscientists.ipynb?raw=true">Lecture 6</a></li>
+      </ul>
       </section>
     </div>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-44566485-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-44566485-1");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
   </body>
 </html>
