@@ -38,14 +38,115 @@
 
 \frame{\titlepage} 
 
+
+\frame{
+   \frametitle{Classes and Objects}
+   \framesubtitle{Definitions} 
+   \begin{itemize}
+    \item {\color{red}Class}: a programming construct used to encapsulate data (attributes) and functions (behaviour) in a single package.
+    \begin{itemize}
+     \item They make programs more managable.
+     \item They allow information hiding.
+    \end{itemize}\vspace*{2mm}
+    
+    \item {\color{red}Object}: a specific {\color{red}instance} of a class.\vspace*{2mm}
+    \item {\color{red}Instantiation}: the process of creating an object from a class.\vspace*{15mm}
+    
+    \item A {\color{red}class} is like a {\color{red}blueprint/template} from which {\color{red}objects} can be {\color{red}created/instantiated}.\vspace*{2mm}
+    \item Cake analogy: A {\color{red}cake} (object) is created using a {\color{red}recipe} (class).
+   \end{itemize}
+}
+
+\frame{
+   \frametitle{Classes and Objects}
+   \framesubtitle{Terminology} 
+   \begin{itemize}
+    \item Variables belonging to a class are known as {\color{red}attributes}.\vspace*{2mm}
+    \item Functions belonging to a class are known as {\color{red}methods}.\vspace*{2mm}
+    \item It is good practice to change attributes via {\color{red}get/set} methods, not directly.
+   \end{itemize}
+}
+
+\frame{
+   \frametitle{Classes and Objects}
+   \framesubtitle{Example} 
+   \begin{itemize}
+    \item General example of a class definition in Python:\vspace*{2mm}
+    \begin{minipage}[t]{\textwidth}
+       \texttt{class ClassName:}
+    
+       \ \ \ \ \ \indent\texttt{def \_\_init\_\_(self, input1, input2):}
+       
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.a = input1}
+       
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.b = input2}
+       
+       \ \ \ \ \ \indent\texttt{def method1(self, input1):}
+       
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{print "Hello \%s!" \% input1}
+       
+       \ \ \ \ \ \indent\texttt{def method2(self):}
+       
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{print "a = \%d, b = \%d" \% (self.a, self.b)}
+       
+                  \ \ \ \ \ \ \ \ \ \
+                  
+       \texttt{A = ClassName(5, 10)}
+
+       \texttt{A.method1("world")} $\rightarrow$ ``Hello world!''
+       
+       \texttt{A.method2()} $\rightarrow$ 5, 10
+    \end{minipage}\vspace*{2mm}
+    \item \texttt{self} helps to distinguish class attributes from other variables.
+    \item \texttt{\_\_init\_\_} is a special method used to initialise/setup objects.
+   \end{itemize}
+}
+
+\frame{
+   \frametitle{Classes and Objects}
+   \framesubtitle{Cake} 
+   \begin{itemize}
+    \item The following example describes cake:
+    \begin{minipage}[t]{\textwidth}
+       \texttt{class Cake:}
+    
+       \ \ \ \ \ \indent\texttt{def \_\_init\_\_(self, cake\_type):}
+       
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.type = cake\_type}
+       
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.number\_of\_slices = 10}
+       
+       \ \ \ \ \ \indent\texttt{def eat\_slice(self):}
+              
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.number\_of\_slices = self.number\_of\_slices - 1}
+       
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{print "\%d slices remaining." \% self.number\_of\_slices}     
+       
+                  \ \ \ \ \ \ \ \ \ \
+                  
+       \texttt{A = Cake("Chocolate")}
+       
+       \texttt{B = Cake("Lemon")}
+           
+           \ \ \ \ \ \ \ \ \ \
+           
+       \indent\texttt{print A.type} $\rightarrow$ ``Chocolate''
+       
+       \indent\texttt{print B.type} $\rightarrow$ ``Lemon''
+       
+       \indent\texttt{B.eat\_slice()} $\rightarrow$ ``9 slices remaining.''
+    \end{minipage}\vspace*{2mm}
+    
+   \end{itemize}
+}
+
 \frame{
    \frametitle{NumPy Arrays}
    \framesubtitle{Definition} 
    \begin{itemize}
     \item {\color{red}Arrays}: data structures which comprise a finite number of {\color{red}elements}/items/values.\vspace*{2mm}
     \item Similar to lists (or lists of lists), but are of a {\color{red}fixed size}.\vspace*{2mm}
-    \item The flexibility of adding/removing elements from a list comes with a cost. List elements may not be stored in contiguous areas of memory and Python therefore has to look up where the elements are stored. This is called indirect addressing.
-    \item In contrast, arrays are generally {\color{red}faster than lists} because the elements are stored in contiguous areas of memory.
+    \item Arrays are generally {\color{red}faster than lists} because array elements are stored in {\color{red}contiguous} areas of memory.
    \end{itemize}
 }
 
@@ -180,107 +281,6 @@ $$
        \texttt{print s.split(",")} $\rightarrow$ [``hello world'', `` Python is really awesome'']
     \end{minipage}\vspace*{2mm}
     \item Remember: Strings are {\color{red}immutable}/{\color{red}constant} data structures. They cannot be modified once defined.
-   \end{itemize}
-}
-
-\frame{
-   \frametitle{Classes and Objects}
-   \framesubtitle{Definitions} 
-   \begin{itemize}
-    \item {\color{red}Class}: a programming construct used to encapsulate data (attributes) and functions (behaviour) in a single package.
-    \begin{itemize}
-     \item They make programs more managable.
-     \item They allow information hiding.
-    \end{itemize}\vspace*{2mm}
-    
-    \item {\color{red}Object}: a specific {\color{red}instance} of a class.\vspace*{2mm}
-    \item {\color{red}Instantiation}: the process of creating an object from a class.\vspace*{15mm}
-    
-    \item A {\color{red}class} is like a {\color{red}blueprint/template} from which {\color{red}objects} can be {\color{red}created/instantiated}.\vspace*{2mm}
-    \item Cake analogy: A {\color{red}cake} (object) is created using a {\color{red}recipe} (class).
-   \end{itemize}
-}
-
-\frame{
-   \frametitle{Classes and Objects}
-   \framesubtitle{Terminology} 
-   \begin{itemize}
-    \item Variables belonging to a class are known as {\color{red}attributes}.\vspace*{2mm}
-    \item Functions belonging to a class are known as {\color{red}methods}.\vspace*{2mm}
-    \item It is good practice to change attributes via {\color{red}get/set} methods, not directly.
-   \end{itemize}
-}
-
-\frame{
-   \frametitle{Classes and Objects}
-   \framesubtitle{Example} 
-   \begin{itemize}
-    \item General example of a class definition in Python:\vspace*{2mm}
-    \begin{minipage}[t]{\textwidth}
-       \texttt{class ClassName:}
-    
-       \ \ \ \ \ \indent\texttt{def \_\_init\_\_(self, input1, input2):}
-       
-       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.a = input1}
-       
-       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.b = input2}
-       
-       \ \ \ \ \ \indent\texttt{def method1(self, input1):}
-       
-       \ \ \ \ \ \ \ \ \ \ \indent\texttt{print "Hello \%s!" \% input1}
-       
-       \ \ \ \ \ \indent\texttt{def method2(self):}
-       
-       \ \ \ \ \ \ \ \ \ \ \indent\texttt{print "a = \%d, b = \%d" \% (self.a, self.b)}
-       
-                  \ \ \ \ \ \ \ \ \ \
-                  
-       \texttt{A = ClassName(5, 10)}
-
-       \texttt{A.method1("world")} $\rightarrow$ ``Hello world!''
-       
-       \texttt{A.method2()} $\rightarrow$ 5, 10
-    \end{minipage}\vspace*{2mm}
-    \item \texttt{self} helps to distinguish class attributes from other variables.
-    \item \texttt{\_\_init\_\_} is a special method used to initialise/setup objects.
-   \end{itemize}
-}
-
-\frame{
-   \frametitle{Classes and Objects}
-   \framesubtitle{Cake} 
-   \begin{itemize}
-    \item The following example describes cake:
-    \begin{minipage}[t]{\textwidth}
-       \texttt{class Cake:}
-    
-       \ \ \ \ \ \indent\texttt{def \_\_init\_\_(self, cake\_type):}
-       
-       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.type = cake\_type}
-       
-       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.number\_of\_slices = 10}
-       
-       \ \ \ \ \ \indent\texttt{def eat\_slice(self):}
-              
-       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.number\_of\_slices = self.number\_of\_slices - 1}
-       
-       \ \ \ \ \ \ \ \ \ \ \indent\texttt{print "\%d slices remaining." \% self.number\_of\_slices}     
-       
-                  \ \ \ \ \ \ \ \ \ \
-                  
-       \texttt{A = Cake("Chocolate")}
-       
-       \texttt{B = Cake("Lemon")}
-           
-           \ \ \ \ \ \ \ \ \ \
-           
-       \indent\texttt{print A.type} $\rightarrow$ ``Chocolate''
-       
-       \indent\texttt{print B.type} $\rightarrow$ ``Lemon''
-       
-       \indent\texttt{B.eat\_slice()} $\rightarrow$ ``9 slices remaining.''
-    \end{minipage}\vspace*{2mm}
-    
    \end{itemize}
 }
 
