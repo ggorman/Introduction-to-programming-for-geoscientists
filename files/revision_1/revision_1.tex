@@ -51,6 +51,8 @@
         \item The value can then be {\color{red}referenced} (i.e. accessed) using the symbolic name, e.g. \texttt{print a}.
       \end{itemize}
    \end{itemize}
+   \vspace*{5mm}
+   A simplified view of variable storage:
    \begin{figure}[H]
       \centering\includegraphics[width=0.9\columnwidth]{images/memory.png}
    \end{figure}
@@ -135,10 +137,12 @@
   \frametitle{Operator precedence}
   \framesubtitle{}
   \begin{itemize}
-    \item Expressions like \texttt{2 + 3/5.0} are evaluated in a particular order, determined by {\color{red}operator precedence}.\vspace*{2mm}
-    \item Division has a {\color{red}higher precedence} than addition, so \texttt{3/5.0} is evaluated {\color{red}first}, and \texttt{2} is then added on afterwards.\vspace*{2mm}
-    \item If we wanted \texttt{2 + 3} to be evaluated first, then we need to use {\color{red}parentheses}: \texttt{(2 + 3)/5.0}.\vspace*{2mm}
+    \item Expressions like \texttt{2.0 + 3.0/5.0} are evaluated in a particular order, determined by {\color{red}operator precedence}.\vspace*{2mm}
+    \item Division has a {\color{red}higher precedence} than addition, so \texttt{3.0/5.0} is evaluated {\color{red}first}, and \texttt{2.0} is then added on afterwards.\vspace*{2mm}
+    \item If we wanted \texttt{2.0 + 3.0} to be evaluated first, then we need to use {\color{red}parentheses}: \texttt{(2.0 + 3.0)/5.0}.\vspace*{2mm}
     \item {\color{red}BODMAS}: {\color{red}B}rackets, {\color{red}O}rder, {\color{red}D}ivision, {\color{red}M}ultiplication, {\color{red}A}ddition, {\color{red}S}ubtraction.
+    \newline
+    \item Note: Python groups certain operators together such that they have the same precedence, and then evaluates expressions from left to right. See \texttt{http://docs.python.org/2/reference/expressions.html}.
   \end{itemize}
 }
 
