@@ -38,22 +38,90 @@
 
 \frame{\titlepage} 
 
-
 \frame{
    \frametitle{Classes and Objects}
    \framesubtitle{Definitions} 
    \begin{itemize}
-    \item {\color{red}Class}: a programming construct used to encapsulate data (attributes) and functions (behaviour) in a single package.
+    \item {\color{red}Class}: a programming construct that allows a set of objects with common properties to be described as a single package that encapsulates data (attributes) and functions (behaviour).\vspace*{2mm}
     \begin{itemize}
      \item They make programs more managable.
      \item They allow information hiding.
-    \end{itemize}\vspace*{2mm}
-    
+    \end{itemize}\vspace*{2mm}    
     \item {\color{red}Object}: a specific {\color{red}instance} of a class.\vspace*{2mm}
     \item {\color{red}Instantiation}: the process of creating an object from a class.\vspace*{15mm}
     
     \item A {\color{red}class} is like a {\color{red}blueprint/template} from which {\color{red}objects} can be {\color{red}created/instantiated}.\vspace*{2mm}
-    \item Cake analogy: A {\color{red}cake} (object) is created using a {\color{red}recipe} (class).
+   \end{itemize}
+}
+
+\frame{
+   \frametitle{Classes and Objects}
+   \framesubtitle{Motivation} 
+    \begin{minipage}[t]{\textwidth}
+       \texttt{def print\_data(id, name, course):}
+    
+       \ \ \ \ \ \indent\texttt{print "Student id: \%d, name: \%s, course: \%s" \% \\(id, name, course)}
+       
+       \texttt{ }
+       
+       \texttt{student1\_id = 1}
+       
+       \texttt{student1\_name = "Bob"}
+       
+       \texttt{student1\_course = "Geology"}
+       
+       \texttt{student2\_id = 2}
+       
+       \texttt{student2\_name = "Alice"}
+       
+       \texttt{student2\_course = "Computer science"}
+       
+       \texttt{print\_data(student2\_id, student2\_name, student2\_course)}
+    \end{minipage}\vspace*{2mm}
+}
+
+\frame{
+   \frametitle{Classes and Objects}
+   \framesubtitle{Motivation} 
+    \begin{minipage}[t]{\textwidth}
+       \texttt{class Student:}
+       
+       \ \ \ \ \ \indent\texttt{def \_\_init\_\_(self, id, name, course):}
+          
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.id = id}
+       
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.name = name}
+ 
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.course = course}
+       
+       \ \ \ \ \ \indent\texttt{def print\_data(self):}
+       
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{print "Student id: \%d, name: \%s, course: \%s" \% \\(self.id, self.name, self.course)}
+       
+       \texttt{ }
+              
+       \texttt{student1 = Student(1, "Bob", "Geology")}
+       
+       \texttt{student2 = Student(2, "Alice", "Computer science")}
+       
+       \texttt{student2.print\_data()}
+    \end{minipage}\vspace*{2mm}
+}
+
+\frame{
+   \frametitle{Classes and Objects}
+   \framesubtitle{Examples} 
+   \begin{itemize}   
+    \item A cake ({\color{red}object}) is baked in the oven ({\color{red}instantiated}) once prepared from a generic cake recipe ({\color{red}class}):\vspace*{3mm}
+    \begin{itemize}
+      \item data/attributes: flavour, number of slices
+      \item functions/behaviour: remove slice, expire
+    \end{itemize}\vspace*{5mm}
+    \item A human ({\color{red}object}) is born ({\color{red}instantiated}) with physical characteristics defined by a genetic makeup ({\color{red}class}):\vspace*{3mm}
+    \begin{itemize}
+      \item data/attributes: eye colour, hair colour
+      \item functions/behaviour: sleep, drink, eat
+    \end{itemize}\vspace*{2mm}
    \end{itemize}
 }
 
@@ -93,9 +161,9 @@
 
        \texttt{A.method1("world")} $\rightarrow$ ``Hello world!''
        
-       \texttt{A.method2()} $\rightarrow$ 5, 10
+       \texttt{A.method2()} $\rightarrow$ ``a = 5, b = 10''
     \end{minipage}\vspace*{2mm}
-    \item \texttt{self} distinguishes the attributes belonging to a particular object from other variables.
+    \item \texttt{self} can be thought of as the object that is calling one of the methods.
     \item \texttt{\_\_init\_\_} is a special method used to initialise/setup objects.
    \end{itemize}
 }
@@ -116,7 +184,7 @@
        
        \ \ \ \ \ \indent\texttt{def eat\_slice(self):}
               
-       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.number\_of\_slices = self.number\_of\_slices - 1}
+       \ \ \ \ \ \ \ \ \ \ \indent\texttt{self.number\_of\_slices = self.number\_of\_slices-1}
        
        \ \ \ \ \ \ \ \ \ \ \indent\texttt{print "\%d slices remaining." \% self.number\_of\_slices}     
        
@@ -143,7 +211,7 @@
    \framesubtitle{Definition} 
    \begin{itemize}
     \item {\color{red}Arrays}: data structures which comprise a finite number of {\color{red}elements}/items/values.\vspace*{2mm}
-    \item Similar to lists (or lists of lists), but are of a {\color{red}fixed size}.\vspace*{2mm}
+    \item Similar to lists (or lists of lists), but are of a {\color{red}fixed size} and can only contain {\color{red}one data type}.\vspace*{2mm}
     \item Arrays are generally {\color{red}faster than lists} because array elements are stored in {\color{red}contiguous} areas of memory.
    \end{itemize}
 }
@@ -157,7 +225,7 @@
       \item {\color{red}linspace(start, end, n)}: creates an array of $n$ uniformly distributed points in the interval [start, end].\vspace*{2mm}
       \item {\color{red}zeros(n)}: creates an array of $n$ elements that are all initialised to zero.
      \end{itemize}\vspace*{2mm}
-    \item Or...simply define as a list of lists and cast/convert to an array:\vspace*{2mm}
+    \item Or...simply define as a list of lists (in 2D) and cast/convert to an array:\vspace*{2mm}
     \begin{minipage}[t]{0.4\textwidth}
     $$
 \left\lbrack\begin{array}{ccc}
@@ -223,6 +291,30 @@ $$
 }
 
 \frame{
+   \frametitle{Strings}
+   \framesubtitle{Definition} 
+   \begin{itemize}
+    \item {\color{red}String}: a {\color{red}sequence of characters}, terminated by an {\color{red}end-of-line marker}.\vspace*{2mm}
+    \item Each character in a string can be accessed in the same way as elements of a list or array:
+    \begin{minipage}[t]{\textwidth}
+       \texttt{s = "hello"}
+       
+       \texttt{print s[0]} $\rightarrow$ ``h''
+    
+       \texttt{print s[2]} $\rightarrow$ ``l''
+    \end{minipage}\vspace*{2mm}
+    \item \texttt{split} breaks up strings wherever a user-defined {\color{red}delimiter} is encountered.\vspace*{2mm}
+    \item For example, if the delimiter is a comma:
+    \begin{minipage}[t]{\textwidth}
+       \texttt{s = "hello world, Python is really awesome."}
+       
+       \texttt{print s.split(",")} $\rightarrow$ [``hello world'', `` Python is really awesome'']
+    \end{minipage}\vspace*{2mm}
+    \item Remember: Strings are {\color{red}immutable}/{\color{red}constant} data structures. They cannot be modified once defined.
+   \end{itemize}
+}
+
+\frame{
    \frametitle{Files}
    \framesubtitle{Reading} 
    \begin{itemize}
@@ -255,30 +347,6 @@ $$
     \item \texttt{d.values()} $\rightarrow$ [11.0, 6.0, 8.0]\vspace*{2mm}
     \item Items can be added using \texttt{b[new\_key\_here] = value\_here}.\vspace*{2mm}
     \item ...or existing items can be accessed using the key: \texttt{print b["Barcelona"]}.\vspace*{2mm}
-   \end{itemize}
-}
-
-\frame{
-   \frametitle{Strings}
-   \framesubtitle{Definition} 
-   \begin{itemize}
-    \item {\color{red}String}: a {\color{red}sequence of characters}, terminated by an {\color{red}end-of-line marker}.\vspace*{2mm}
-    \item Each character in a string can be accessed in the same way as elements of a list or array:
-    \begin{minipage}[t]{\textwidth}
-       \texttt{s = "hello"}
-       
-       \texttt{print s[0]} $\rightarrow$ ``h''
-    
-       \texttt{print s[2]} $\rightarrow$ ``l''
-    \end{minipage}\vspace*{2mm}
-    \item \texttt{split} breaks up strings wherever a user-defined {\color{red}delimiter} is encountered.\vspace*{2mm}
-    \item For example, if the delimiter is a comma:
-    \begin{minipage}[t]{\textwidth}
-       \texttt{s = "hello world, Python is really awesome."}
-       
-       \texttt{print s.split(",")} $\rightarrow$ [``hello world'', `` Python is really awesome'']
-    \end{minipage}\vspace*{2mm}
-    \item Remember: Strings are {\color{red}immutable}/{\color{red}constant} data structures. They cannot be modified once defined.
    \end{itemize}
 }
 
