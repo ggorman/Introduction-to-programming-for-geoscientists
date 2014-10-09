@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
   computer programming; become proficient at Python programming as it is
   currently one of the most commonly used languages in computational science.
 
-production_url : http://ggorman.github.io/Introduction-to-programming-for-geoscientist/
+production_url : http://ggorman.github.io/Introduction-to-programming-for-geoscientists
 
 # Build settings
 markdown: kramdown
