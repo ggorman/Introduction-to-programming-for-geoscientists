@@ -19,49 +19,48 @@ The lectures notes are written in [IPython notebook](http://ipython.org/notebook
 
 You might be asking as a geoscientist why on earth are you learning to
 program. You were expecting exciting field trips etc, not hours
-looking at a computer screen. The fact is that at computing and at
-least basic programming are crucial skills in nearly all modern
+looking at a computer screen. The fact is that computing and at
+least basic programming are crucial skills in nearly all fields of modern
 science and engineering. It has many uses in data analysis, simulation
 and prediction. Irrespective of what area you pursue in geoscience,
-you will need to do somewhere between a little or a lot of
+you will need to do somewhere between a little and a lot of
 programming. Another way I would sell the idea to you is ultimately,
 with just the right set of basic skills, you can automate all the
 boring stuff and focus on the fun stuff.
 
 ## Hey, the lecturer is not lecturing us!
 
-Lets get this straight because it comes up every year - for a couple
+Let's get this straight because it comes up every year - for a couple
 of reasons I will not be standing in front, talking at you, for 3
 hours each week. This worries some students because it does not align
 with the common notion of what a lecture entails. So let me explain...
 
-[For starters, in the best of circumstances the adult student can maintain focus for 15-20](http://ixil.izt.uam.mx/pd/lib/exe/fetch.php/ib:modconduccion:the_change_up_in_lectures.pdf). Then
+[For starters, in the best of circumstances the adult student can maintain focus for 15-20 minutes](http://ixil.izt.uam.mx/pd/lib/exe/fetch.php/ib:modconduccion:the_change_up_in_lectures.pdf). Then
 you need refreshing or resetting. Sure you may sit passively for much
 longer and think you are learning/being taught but the scientific
 evidence says you are working sub-optimally and spend significant
 periods zoned out. Secondly, passive learning simply does not work for
 this course no more than it would work for learning to
-cycle. Computing programming is a practical skill and you mostly learn
+cycle. Computing programming is a *practical* skill and you mostly learn
 by doing it yourself. On the plus side the experience does not hurt
 nearly as much as learning to cycle.
 
 For this reason we apply a form of
 [blended learning](http://en.wikipedia.org/wiki/Blended_learning). All
 the course material is online and you are expected to have read
-through the relevant material before a lecture. Lets face it - you do
+through the relevant material before a lecture. Let's face it - you do
 not need me to read to you. The face-to-face lecture is based in the
 computer lab. There we will have a series of ~10 minute lectures to
 establish context/motivation, run through live examples and explore
-issues raised by you the students. Most of the time you will be
+issues raised by you, the students. Most of the time you will be
 working through the exercises that make use of the concepts introduced
 in the lecture material. This should be a highly interactive
 experience with your peers (sometimes the best person to explain
-something is someone who just learned it themselves as they are closer
+something is someone who just learned it themselves, as they are closer
 to your perspective), teaching assistants (we have a really good
 GTA/student ratio so make use of them!) and lecturer. While I have
 suggested a text book which you may choose to read sections of for
-greater understanding and entertainment - **the critical aspect of the
-course is to complete these exercises**. Just ask the students in the
+greater understanding and entertainment - *the critical aspect of the course is to complete these exercises*. Just ask the students in the
 years ahead of you.
 
 ## The exam
