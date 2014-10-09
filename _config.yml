@@ -1,0 +1,16 @@
+# Site settings
+title: Introduction to programming for geoscientists
+email: g.gorman@imperial.ac.uk
+description: > # this means to ignore newlines until "baseurl:"
+
+  This lecture course has two objectives: learn the basic principles of
+  computer programming; become proficient at Python programming as it is
+  currently one of the most commonly used languages in computational science.
+
+baseurl: "/Introduction-to-programming-for-geoscientist/" # the subpath of your site, e.g. /blog/
+url: "http://ggorman.github.io" # the base hostname & protocol for your site
+twitter_username: gerardjgorman
+github_username:  ggorman
+
+# Build settings
+markdown: kramdown
