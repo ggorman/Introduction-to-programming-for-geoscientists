@@ -84,7 +84,7 @@ Python is a modern, general-purpose, high-level programming language. It is wide
 
 All the course notes are online. Sample solutions to the exercises
 will be made available after each lecture. If you miss a lecture (due
-to ebola or similarly good reason) then make an earnest attempt at the
+to illness or other good reason) then make an earnest attempt at the
 exercises before reading the solution or you will deprive yourself of
 the learning experience.
 
