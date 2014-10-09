@@ -1,9 +1,17 @@
 # Site settings
 title: Introduction to programming for geoscientists
-name: Gerard Gorman
-email: g.gorman@imperial.ac.uk
-github_username:  ggorman
-twitter_username: gerardjgorman
+
+name1: Gerard Gorman
+address1: Room 4.92, Royal School of Mines
+email1: g.gorman@imperial.ac.uk
+github_username1:  ggorman
+twitter_username1: gerardjgorman
+
+name2: Christian Jacobs
+address2: Room 4.88, Royal School of Mines
+email2: c.jacobs10@imperial.ac.uk
+github_username2:  ctjacobs
+twitter_username2: ctjacobs_uk
 
 description: > # this means to ignore newlines until "baseurl:"
 
@@ -11,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   computer programming; become proficient at Python programming as it is
   currently one of the most commonly used languages in computational science.
 
-baseurl: http://ggorman.github.io/Introduction-to-programming-for-geoscientists
+#baseurl: http://ggorman.github.io/Introduction-to-programming-for-geoscientists
 production_url : http://ggorman.github.io/Introduction-to-programming-for-geoscientist
 
 # Build settings
