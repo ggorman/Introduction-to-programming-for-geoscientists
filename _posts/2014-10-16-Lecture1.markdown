@@ -19,7 +19,7 @@ First, we strongly recommend setting your default browser to Google Chrome or Fi
 {% highlight bash %}
 ipython notebook
 {% endhighlight %}
-Then press Enter. This will start up IPython Notebook in your default browser. From there you can open the IPython Notebook file that you have downloaded.
+Then press Enter. This will start up IPython Notebook in your default web browser. From there you can open the IPython Notebook file that you have downloaded.
 
 <!--
 [Solutions](http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists-Solutions.ipynb?raw=true)
