@@ -7,11 +7,13 @@ categories: Lecture notes
 
 ## What is the course about?
 
-This lecture course is designed to be a first introduction to
-computing programming. No previous knowledge of computer programming,
-or indeed computing, is assumed. We will be covering core concepts in
-programming which you will be able to reapply to any other programming
-language that you are likely to encounter in the future.
+This is a 1<sup>st</sup> year undergraduate course for geoscientists taught by [Gerard Gorman](http://www.imperial.ac.uk/people/g.gorman) and [Christian Jacobs](http://www.imperial.ac.uk/people/c.jacobs10).
+It is designed to be a first introduction to computer programming. 
+No previous knowledge of computer programming, or indeed computing, is assumed. 
+We will be covering core concepts in programming which you will be able to reapply
+to any other programming language that you are likely to encounter in the future.
+
+The lectures notes are written in [IPython notebook](http://ipython.org/notebook.html). This is a web-based interactive computational environment where you can combine code execution, text, mathematics, plots and rich media into a single document.
 
 ## I did not sign up for computer science - why on earth am I doing this?
 
@@ -73,11 +75,11 @@ lost.
 
 ## Why Python? Why not [insert whatever language] instead?
 
-Python is a modern, general-purpose, object-oriented, high-level programming language. It is widely used in science and engineering and overall has a significant share of the programming market share (see [TIOBE](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)). It is also one of the [most popular introductary teaching languages](http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext) 
+Python is a modern, general-purpose, high-level programming language. It is widely used in science and engineering and overall has a significant share of the programming market share (see [TIOBE](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)). It is also one of the [most popular introductary teaching languages](http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext). It's advantages are:
 
-	Simplicity: It is easy to read and easy to learn.
-    Expressive: Fewer lines of code, fewer bugs and easy to maintain.
-    Powerful: Python is not a language you grow out of. It can also be used for large projects, Big Data, High Performance Computing applications, etc.
+* Simplicity: It is easy to read and easy to learn.
+* Expressive: Fewer lines of code, fewer bugs and easy to maintain.
+* Powerful: Python is not a language you grow out of. It can also be used for large projects, Big Data, High Performance Computing applications, etc.
 
 ## Course material
 
