@@ -17,7 +17,7 @@ We recommend that you download the notebooks for the lecture and store them in t
 2. At the beginning of each lecture, download the relevant `.ipynb` file and place it in this folder. Once you've saved the notebook, you can open it in one of two ways in the computer lab, each of which are described in the following sections. Both of these solutions will also work on your personal computer, and you can download the software needed to do this for free.
 
 ### [Enthought: Canopy](https://www.enthought.com/products/canopy/)
-1. Go to the Windows Start menu and start the Canopy Editor:
+1. Go to the Windows Start menu and start the Canopy *Code Editor*:
 ![Canopy menu item](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/gh-pages/images/canopy_menu_item.jpg "The Canopy menu item in the Windows Start menu.")
 
 2. If asked, change the folder that you want to work with to your `H:\notebooks` folder:
