@@ -46,8 +46,3 @@ ipython notebook
 ```<br>
 This will start up IPython Notebook in your default web browser. From there you should see the `.ipynb` files that you have saved in the `notebooks` folder.
 
-<!--
-[Solutions](http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists-Solutions.ipynb?raw=true)
--->
-
-
