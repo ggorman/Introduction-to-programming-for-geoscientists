@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Lecture 3"
+date:   2014-10-30 14:10:00
+categories: Lecture notes
+---
+
+The lecture is written in IPython notebook format. You can view it directly using
+[nbviewer](http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-3-Introduction-to-programming-for-geoscientists.ipynb?raw=true) or [download the notebook here](http://raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-3-Introduction-to-programming-for-geoscientists.ipynb?raw=true) (Note: you may need to right-click and use *Save Link As...*).
+
+If you are having difficulty opening the file in Anaconda or Canopy then please revise the guidelines in week 1 or call on one of the GTA's.
+
+<!--
+[Solutions](http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists-Solutions.ipynb?raw=true)
+-->
+
+
