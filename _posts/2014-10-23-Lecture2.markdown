@@ -5,15 +5,25 @@ date:   2014-10-23 14:10:00
 categories: Lecture notes
 ---
 
-The lecture is written in IPython notebook format. You can view it directly using
-[nbviewer](http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb?raw=true) or [download the notebook here](http://raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb?raw=true) (Note: you may need to right-click and use *Save Link As...*).
+The lecture is written in IPython notebook format. You can view it directly
+using
+[nbviewer](http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb?raw=true)
+or [download the notebook
+here](http://raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb?raw=true)
+(Note: you may need to right-click and use *Save Link As...*).
 
-If you are having difficulty opening the file in Anaconda or Canopy then please revise the guidelines in week 1 or call on one of the GTA's.
+If you are having difficulty opening the file in Anaconda or Canopy then please
+revise the guidelines in week 1 or call on one of the GTA's.
 
-This lecture does have quite a bit of material in it. So we are going to monitor progress closely and may split it across 2 weeks depending on how we get on.
+This lecture does have quite a bit of material in it. So we are going to
+monitor progress closely and may split it across 2 weeks depending on how we
+get on.
 
-<!--
-[Solutions](http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists-Solutions.ipynb?raw=true)
--->
+Update 
+------ 
+As expected we only got through about half of the material in
+this lecture. The rest of the lecture and revision exercises will be covered
+next week. Sample solutions for this lecture will also be submitted after next
+weeks lecture.
 
 
