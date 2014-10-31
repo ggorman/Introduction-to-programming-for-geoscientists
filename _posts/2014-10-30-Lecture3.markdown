@@ -11,8 +11,3 @@ you can view it directly using
 
 If you are having difficulty opening the file in Anaconda or Canopy then please revise the guidelines in week 1 or call on one of the GTA's.
 
-<!--
-[Solutions](http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists-Solutions.ipynb?raw=true)
--->
-
-

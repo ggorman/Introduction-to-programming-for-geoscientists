@@ -7,9 +7,9 @@ categories: Lecture notes
 
 The lecture is written in IPython notebook format. You can view it directly
 using
-[nbviewer](http://nbviewer.ipython.org/url/raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb?raw=true)
+[nbviewer](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb)
 or [download the notebook
-here](http://raw.github.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb?raw=true)
+here](http://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-2-Introduction-to-programming-for-geoscientists.ipynb)
 (Note: you may need to right-click and use *Save Link As...*).
 
 If you are having difficulty opening the file in Anaconda or Canopy then please
