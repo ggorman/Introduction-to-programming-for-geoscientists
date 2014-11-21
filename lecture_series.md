@@ -23,7 +23,7 @@ permalink: /lecture_series/
 [Solutions](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-5-Introduction-to-programming-for-geoscientists-Solutions.ipynb)
 -->
 * Week 7 (4-Dec-2014):
-[Download lecture](http://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-6-Introduction-to-programming-for-geoscientists.ipynb)
+[View lecture](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-6-Introduction-to-programming-for-geoscientists.ipynb)
 <!--
 [Solutions](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-6-Introduction-to-programming-for-geoscientists-Solutions.ipynb)
 -->
