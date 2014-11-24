@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Lecture 5"
+date:   2014-11-27 14:10:00
+categories: Lecture notes
+---
+
+The lecture is written in IPython notebook format. You can view it directly
+using
+[nbviewer](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-5-Introduction-to-programming-for-geoscientists.ipynb)
+or [download the notebook here](http://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-5-Introduction-to-programming-for-geoscientists.ipynb)
+(Note: you may need to right-click and use *Save Link As...*).
+
+You will also need to make a new folder called `data` inside of your `notebooks` folder, and download the following files to that new folder:
+
+* [data1.txt](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/data1.txt)
+* [2012AVO.txt](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/2012AVO.txt)
+* [xy.dat](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/xy.dat)
+* [density_water.dat](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/density_water.dat)
+* [density_air.dat](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/density_air.dat)
+* [acc.dat](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/acc.dat)
+* [deg2.dat](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/deg2.dat)
+* [constants.txt](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/constants.txt)
+* [densities.dat](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/densities.dat)
+
+If you are having difficulty opening the file in Anaconda or Canopy then please revise the guidelines in week 1 or call on one of the GTA's.
+
