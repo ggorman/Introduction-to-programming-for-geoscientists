@@ -3,6 +3,7 @@ layout: post
 title:  "Lecture 6"
 date:   2014-12-05 14:10:00
 categories: Lecture notes
+comments: True
 ---
 
 The lecture is written in IPython notebook format. You can view it directly
