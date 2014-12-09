@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Revision lecture 1"
+date:   2014-12-09 12:00:00
+categories: Lecture notes
+---
+
+Welcome to the first of two revision lectures. Today we will be looking at last years exam paper, working though the problems in it, and getting a general feeling for what the exam feels like. 
+
+Just like all the lectures the exam is written in IPython notebook format. You should make sure you can add cells to write your solutions. In addition, please email me your solutions at the end of the lecture. This is how you will also be submitting your exam. I will not be grading these solutions - I just want to make sure you are able to attach your notebook as a file to an email (2 people were not able to do this last year!).
+
+[2013 class test](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/gh-pages/notebook/python_class_test_2013.ipynb)
+
+If you are having difficulty opening the file in Anaconda or Canopy then please
+revise the guidelines in week 1 or call on one of the GTA's.
+
