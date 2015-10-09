@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lecture 1"
-date:   2014-10-16 14:10:00
+date:   2015-10-15 14:10:00
 categories: Lecture notes
 ---
 
