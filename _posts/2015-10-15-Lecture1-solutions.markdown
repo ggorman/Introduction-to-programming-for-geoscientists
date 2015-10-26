@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Solutions to exercises in lecture 1"
-date:   2014-10-17 00:00:00
+date:   2015-10-15 00:00:00
 categories: Lecture notes
 ---
 

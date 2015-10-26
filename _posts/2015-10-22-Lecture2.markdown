@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lecture 2"
-date:   2014-10-23 14:10:00
+date:   2015-10-22 14:10:00
 categories: Lecture notes
 ---
 
@@ -19,11 +19,9 @@ This lecture does have quite a bit of material in it. So we are going to
 monitor progress closely and may split it across 2 weeks depending on how we
 get on.
 
-Update 
+<!---Update 
 ------ 
 As expected we only got through about half of the material in
 this lecture. The rest of the lecture and revision exercises will be covered
 next week. Sample solutions for this lecture will also be submitted after next
-weeks lecture.
-
-
+weeks lecture. -->
