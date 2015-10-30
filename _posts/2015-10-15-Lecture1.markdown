@@ -6,7 +6,7 @@ categories: Lecture notes
 ---
 
 The lecture is written in IPython notebook format. You will quickly see that you can edit these notebooks yourself to add your own notes and do the exercises. You can view it directly using
-[nbviewer](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists.ipynb) or [download the notebook here](http://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists.ipynb) (Note: you may need to right-click and use *Save Link As...*).
+[nbviewer](http://nbviewer.ipython.org/github/ggorman/Introduction-to-programming-for-geoscientists/blob/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists.ipynb) or [download the notebook here](http://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-1-Introduction-to-programming-for-geoscientists.ipynb) (Note: you may need to right-click and use *Save Link As...*).
 
 ### Initial setup
 We recommend that you download the notebooks for the lecture and store them in the H: drive. 
