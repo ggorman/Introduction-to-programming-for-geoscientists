@@ -12,6 +12,8 @@ or [download the notebook
 here](http://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-3-Introduction-to-programming-for-geoscientists.ipynb)
 (Note: you may need to right-click and use *Save Link As...*).
 
+The improved version of the battleship game that we went through in class can be viewed [here](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/battleship.ipynb).
+
 If you are having difficulty opening the file in Anaconda or Canopy then please
 revise the guidelines in week 1 or call on one of the GTA's.
 
