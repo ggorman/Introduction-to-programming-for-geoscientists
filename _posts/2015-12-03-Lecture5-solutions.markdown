@@ -5,6 +5,5 @@ date:   2015-12-03 00:00:00
 categories: Lecture notes
 ---
 
-See the solutions under [nbviewer](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-5-Introduction-to-programming-for-geoscientists-Solutions.ipynb).
-
+See the solutions under [nbviewer](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-5-Introduction-to-programming-for-geoscientists-Solutions.ipynb). Or download the .ipynb file [here](http://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/Lecture-5-Introduction-to-programming-for-geoscientists-Solutions.ipynb).
 

@@ -9,11 +9,11 @@ A few of you have asked to see a past exam paper. I have made the 2013 exam avai
 
 Just like all the lectures the exam will be written in IPython notebook format. You should make sure you can add cells to write your solutions.
 
-2013 class test: [view](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/python_class_test_2013.ipynb) [download](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/python_class_test_2013.ipynb).
+2013 class test: [view](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/python_class_test_2013.ipynb), [download](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/python_class_test_2013.ipynb)
 
 You will also need to download the data file
 [hpip_yakutsk_borehole_data.txt](https://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/data/hpip_yakutsk_borehole_data.txt)
 
-[2013 class test - sample solution](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/python_class_test_2013-solution.ipynb)
+2013 class test - sample solution: [view](http://nbviewer.ipython.org/url/raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/python_class_test_2013-solution.ipynb), [download](http://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-geoscientists/master/notebook/python_class_test_2013-solution.ipynb)
 
 If you are having difficulty opening the file in Anaconda or Canopy then please revise the guidelines in week 1 or call on one of the GTAs.
