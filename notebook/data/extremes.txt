@@ -1,6 +1,0 @@
-MONTHLY EXTREMES
-Site,day (dd/mm/yyyy) time (24 hours),minimum observed value (metres),day (dd/mm/yyyy) time (24 hours),maximum observed value (metres)
-AVONMOUTH,24/01/2012 02:30,.985,24/01/2012 08:00,13.662
-AVONMOUTH,10/02/2012 16:00,.406,10/02/2012 08:45,13.606
-AVONMOUTH,12/03/2012 04:45,.379,10/03/2012 08:30,14.128
-AVONMOUTH,08/04/2012 03:00,.477,09/04/2012 08:45,14.405

@@ -1,6 +1,0 @@
-MONTHLY MEANS
-Site,month (mm/yyyy),monthly mean value (metres),No. of days used to calculate mean.
-AVONMOUTH,01/2012,6.986,31
-AVONMOUTH,02/2012,6.788,29
-AVONMOUTH,03/2012,6.761,7
-AVONMOUTH,04/2012,6.834,1
