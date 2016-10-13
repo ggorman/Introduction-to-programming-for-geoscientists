@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is a 1<sup>st</sup> year undergraduate course for geoscientists taught by Gerard Gorman and Christian Jacobs at Imperial College London. The course has two objectives:
+This is a 1<sup>st</sup> year undergraduate course for geoscientists taught by Gerard Gorman at Imperial College London. The course has two objectives:
 
 * Learn the basic principles of computer programming. [Python](https://www.python.org/) is currently one of the [most popular introductary teaching languages](http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext) and is an excellent gateway to learning other computing languages that you may encounter as your career develops.
 * Become proficient and productive in Python. It is heavily used in geoscience and you will encounter it many times during your studies, particularly in project work.

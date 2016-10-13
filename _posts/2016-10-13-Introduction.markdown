@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Introduction"
-date:   2015-10-15 14:00:00
+date:   2016-10-13 13:00:00
 categories: Lecture notes
 ---
 
 ## What is the course about?
 
-This is a 1<sup>st</sup> year undergraduate course for geoscientists taught by [Gerard Gorman](http://www.imperial.ac.uk/people/g.gorman) and [Christian Jacobs](http://www.imperial.ac.uk/people/c.jacobs10).
+This is a 1<sup>st</sup> year undergraduate course for geoscientists taught by [Gerard Gorman](http://www.imperial.ac.uk/people/g.gorman).
 It is designed to be a first introduction to computer programming. 
 No previous knowledge of computer programming, or indeed computing, is assumed. 
 We will be covering core concepts in programming which you will be able to reapply
@@ -30,8 +30,8 @@ boring stuff and focus on the fun stuff.
 
 ## Hey, the lecturer is not lecturing us!
 
-Let's get this straight because it comes up every year - for a couple
-of reasons I will not be standing in front, talking at you, for 3
+Let's get this straight because it comes up every year - for a number
+of reasons I will not be standing in front, talking *at* you, for 3
 hours each week. This worries some students because it does not align
 with the common notion of what a lecture entails. So let me explain...
 
@@ -74,7 +74,7 @@ lost.
 
 ## Why Python? Why not [insert whatever language] instead?
 
-Python is a modern, general-purpose, high-level programming language. It is widely used in science and engineering and overall has a significant share of the programming market share (see [TIOBE](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)). It is also one of the [most popular introductary teaching languages](http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext). It's advantages are:
+Python is a modern, general-purpose, high-level programming language. It is widely used in science and engineering and overall has a significant share of the programming market share (see [TIOBE](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)). It is also one of the [most popular introductary teaching languages](http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext). Its advantages are:
 
 * Simplicity: It is easy to read and easy to learn.
 * Expressive: Fewer lines of code, fewer bugs and easy to maintain.
