@@ -15,7 +15,7 @@ here](http://raw.githubusercontent.com/ggorman/Introduction-to-programming-for-g
 If you are having difficulty opening the file in Anaconda or Canopy then please
 revise the guidelines in week 1 or call on one of the GTA's.
 
-This lecture does have quite a bit of material in it. So we are going to
-monitor progress closely and may split it across 2 weeks depending on how we
-get on.
+This lecture does have quite a bit of material in it. We are going to
+monitor progress closely and most likely split it across the next 2 weeks
+to ensure you have time to get through all the exercises.
 
