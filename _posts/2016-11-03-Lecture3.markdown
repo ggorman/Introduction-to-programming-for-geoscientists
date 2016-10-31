@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lecture 3"
-date:   2015-11-05 14:10:00
+date:   2016-11-03 14:00:00
 categories: Lecture notes
 ---
 
@@ -16,4 +16,3 @@ The improved version of the battleship game that we went through in class can be
 
 If you are having difficulty opening the file in Anaconda or Canopy then please
 revise the guidelines in week 1 or call on one of the GTA's.
-
