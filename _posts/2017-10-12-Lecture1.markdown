@@ -8,12 +8,12 @@ categories: Lecture notes
 For this lecture series we are going to use [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/) running on [Azure Cloud](https://azure.microsoft.com/en-gb/overview/what-is-azure/). To get started:
 
 1. Click on the URL
-[https://notebooks.azure.com/ggorman/libraries/intro-programming-for-geo](https://notebooks.azure.com/ggorman/libraries/intro-programming-for-geo)
+[https://notebooks.azure.com/nbarral/libraries/IP-1](https://notebooks.azure.com/nbarral/libraries/IP-1)
 2. Click on the *login* link at the top. Use the same username and password that you use for your college email (i.e. username@ic.ac.uk).
 3. When you first login it will give you an option to set a custom username for notebooks.azure.com --- you can set it to whatever you want but I suggest you use your college username.
-4. Click 'clone' to get your own working copy of the lecture series of notebooks. When you get a pop up window for clone you probably want to uncheck the 'public library' radio button.
+4. Click 'clone' to get your own working copy of the lecture notebook. When you get a pop up window for clone you probably want to uncheck the 'public library' radio button.
 
-At this point you should have your own working copy of the lecture series. It
+At this point you should have your own working copy of the lecture notebook. It
 should be recognisable to you as a file browser. Locate the file
 **Lecture-1-Introduction-to-programming-for-geoscientists.ipynb** and click on
 it. You will get a message saying that it's spinning up an instance for you so
