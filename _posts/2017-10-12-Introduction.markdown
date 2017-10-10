@@ -8,7 +8,8 @@ categories: Lecture notes
 ## "What is the course about?"
 
 This is a 1<sup>st</sup> year undergraduate course for geoscientists taught by
-[Gerard Gorman](http://www.imperial.ac.uk/people/g.gorman).  It is designed to
+[Gerard Gorman](http://www.imperial.ac.uk/people/g.gorman) and 
+[Nicolas Barral](http://www.imperial.ac.uk/people/n.barral). It is designed to
 be a first introduction to computer programming.  No previous knowledge of
 computer programming, or indeed computing, is assumed.  We will be covering
 core concepts in programming which you will be able to reapply to any other
