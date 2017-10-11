@@ -8,7 +8,7 @@ categories: Lecture notes
 For this lecture series we are going to use [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/) running on [Azure Cloud](https://azure.microsoft.com/en-gb/overview/what-is-azure/). To get started:
 
 1. Click on the URL
-[https://notebooks.azure.com/nbarral/libraries/IP-1](https://notebooks.azure.com/nbarral/libraries/IP-1)
+[https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-1](https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-1)
 2. Click on the *login* link at the top. Use the same username and password that you use for your college email (i.e. username@ic.ac.uk).
 3. When you first login it will give you an option to set a custom username for notebooks.azure.com --- you can set it to whatever you want but I suggest you use your college username.
 4. Click 'clone' to get your own working copy of the lecture notebook. When you get a pop up window for clone you probably want to uncheck the 'public library' radio button.
