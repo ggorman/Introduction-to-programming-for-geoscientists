@@ -20,6 +20,10 @@ it. You will get a message saying that it's spinning up an instance for you so
 you can execute any code. Once it opens you should spend a few minutes familiarizing
 yourself with the toolbar.
 
+### Solutions
+
+[https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-1-sol](https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-1-sol)
+
 ### DIY with Anaconda
 It is also possible to run everything on your desktop/laptop if your are motivated to do so. To this I recommend installing [Anaconda](https://www.anaconda.com/download/) for Python 3. You can then download the notebook files and run them locally.
 
