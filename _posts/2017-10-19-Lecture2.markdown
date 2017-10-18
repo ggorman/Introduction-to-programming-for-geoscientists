@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Lecture 2"
+date:   2017-10-19 14:00:00
+categories: Lecture notes
+---
+
+[Link to notebook](https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-2)
+
+
