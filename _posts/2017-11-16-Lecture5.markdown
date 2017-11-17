@@ -7,3 +7,4 @@ categories: Lecture notes
 
 [Link to notebook](https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-5)
 
+[Link to solutions](https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-5-sol)
