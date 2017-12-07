@@ -7,3 +7,5 @@ categories: Lecture notes
 
 [Link to notebook](https://notebooks.azure.com/nbarral/libraries/intro-programming-exam-2016)
 
+
+[Link to solutions](https://notebooks.azure.com/nbarral/libraries/intro-programming-ex16-sol)
