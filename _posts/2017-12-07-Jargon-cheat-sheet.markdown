@@ -5,8 +5,6 @@ date:   2017-12-07 14:00:00
 categories: Lecture notes
 ---
 
-# Jargon cheat sheet
-
 ## Data types:
 
 * **float** - A decimal expansion of a number in ['floating point arithmetic'](https://en.wikipedia.org/wiki/Floating-point_arithmetic). Essentially, a float is a real number. Calling **float** on a number (e.g. an integer or string containing a number) will convert it to this format. Example: float(4) = 4.0 or float('5.2') = 5.2. However float('hello') will raise an error. (See lecture 1)
