@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Exam 2017"
+date:   2017-12-14 13:00
+categories: Lecture notes
+---
+
+[Link to notebook](https://notebooks.azure.com/ggorman/libraries/python-class-test-2017)
+
