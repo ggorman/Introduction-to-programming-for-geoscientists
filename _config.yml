@@ -1,11 +1,16 @@
 # Site settings
 title: Introduction to programming for geoscientists
 
-name1: Gerard Gorman
-address1: Room 4.92, Royal School of Mines
-email1: g.gorman@imperial.ac.uk
-github_username1:  ggorman
-twitter_username1: gerardjgorman
+name2: Gerard Gorman
+address2: Room 4.92, Royal School of Mines
+email2: g.gorman@imperial.ac.uk
+github_username2:  ggorman
+twitter_username2: gerardjgorman
+
+name1: Nicolas Barral
+address1: Room 4.88, Royal School of Mines
+email1: n.barral@imperial.ac.uk
+github_username1:  taupalosaurus
 
 description: > # this means to ignore newlines until "baseurl:"
 
