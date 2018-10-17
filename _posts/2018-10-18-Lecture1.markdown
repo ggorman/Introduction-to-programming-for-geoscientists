@@ -1,28 +1,25 @@
 ---
 layout: post
 title:  "Lecture 1"
-date:   2017-10-12 14:00:00
+date:   2018-10-18 14:00:00
 categories: Lecture notes
 ---
 
-For this lecture series we are going to use [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/) running on [Azure Cloud](https://azure.microsoft.com/en-gb/overview/what-is-azure/). To get started:
+For this lecture series we are going to use [Jupyter Notebooks](http://jupyter.org/) running on [Azure Cloud](https://azure.microsoft.com/en-gb/overview/what-is-azure/). To get started:
 
 1. Click on the URL
-[https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-1](https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-1)
+[https://notebooks.azure.com/nbarral/libraries/introprog-lect1](https://notebooks.azure.com/nbarral/libraries/introprog-lect1)
 2. Click on the *login* link at the top. Use the same username and password that you use for your college email (i.e. username@ic.ac.uk).
 3. When you first login it will give you an option to set a custom username for notebooks.azure.com --- you can set it to whatever you want but I suggest you use your college username.
 4. Click 'clone' to get your own working copy of the lecture notebook. When you get a pop up window for clone you probably want to uncheck the 'public library' radio button.
 
 At this point you should have your own working copy of the lecture notebook. It
 should be recognisable to you as a file browser. Locate the file
-**Lecture-1-Introduction-to-programming-for-geoscientists.ipynb** and click on
-it. You will get a message saying that it's spinning up an instance for you so
-you can execute any code. Once it opens you should spend a few minutes familiarizing
+**lecture.ipynb** and click on it. You will get a message saying that it's 
+spinning up an instance for you so you can execute any code, then a message saying 
+it is preparing your container. You should wait until this last message is gone, then you 
+will be able to execute your own code. You should then spend a few minutes familiarizing
 yourself with the toolbar.
-
-### Solutions
-
-[https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-1-sol](https://notebooks.azure.com/nbarral/libraries/intro-programming-lect-1-sol)
 
 ### DIY with Anaconda
 It is also possible to run everything on your desktop/laptop if your are motivated to do so. To this I recommend installing [Anaconda](https://www.anaconda.com/download/) for Python 3. You can then download the notebook files and run them locally.
