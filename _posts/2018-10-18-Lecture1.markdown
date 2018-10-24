@@ -24,3 +24,6 @@ yourself with the toolbar.
 ### DIY with Anaconda
 It is also possible to run everything on your desktop/laptop if your are motivated to do so. To this I recommend installing [Anaconda](https://www.anaconda.com/download/) for Python 3. You can then download the notebook files and run them locally.
 
+
+## Solutions
+[https://notebooks.azure.com/nbarral/libraries/introprog-lect1sol]
