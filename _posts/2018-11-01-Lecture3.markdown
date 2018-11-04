@@ -7,5 +7,5 @@ categories: Lecture notes
 
 [Link to notebook](https://notebooks.azure.com/nbarral/libraries/introprog-lect3)
 
-
+[Link to solution](https://notebooks.azure.com/nbarral/libraries/introprog-lect3sol)
 
