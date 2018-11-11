@@ -7,4 +7,4 @@ categories: Lecture notes
 
 [Link to notebook](https://notebooks.azure.com/nbarral/libraries/introprog-lect4)
 
-
+[Link to notebook](https://notebooks.azure.com/nbarral/libraries/introprog-lect4sol)
