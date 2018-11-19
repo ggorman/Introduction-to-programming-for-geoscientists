@@ -12,3 +12,8 @@ categories: Lecture notes
 
 
 [2017 exam](https://notebooks.azure.com/nbarral/libraries/introprog-exam2017) Do not try to do it yet, we will do it during the last lecture, and there are things you do not know yet.
+
+
+### Fix test for 5.5:
+
+Go to your library containing your version of the notebook. Click on the `tests` folder. Once you are in the tests folder, click on the `New` button, choose `New from URL` and past the following URL: https://raw.githubusercontent.com/taupalosaurus/ipfg18-5/master/tests/question-5_5.py . The filename should then automatically appear. Click `Ok`, confirm that you want to overwrite the file. If your notebook was already started, you need to restart the kernel to use the new test file.
