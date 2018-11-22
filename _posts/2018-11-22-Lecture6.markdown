@@ -7,3 +7,6 @@ categories: Lecture notes
 
 [Link to notebook](https://notebooks.azure.com/nbarral/libraries/introprog-lect6)
 
+Be careful, the tests of exercise 6.6 are completely wrong. Fixed tests can be found in the solutions. (you can use a procedure similar to lecture 5 to update the tests)
+
+[Link to solutions](https://notebooks.azure.com/nbarral/libraries/introprog-lect6sol)
