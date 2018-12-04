@@ -8,4 +8,4 @@ categories: Lecture notes
 [Link to notebook](https://notebooks.azure.com/nbarral/libraries/introprog-lect7)
 
 
-[Link to notebook](https://notebooks.azure.com/nbarral/libraries/introprog-lect7sol)
+[Link to solutions](https://notebooks.azure.com/nbarral/libraries/introprog-lect7sol)
