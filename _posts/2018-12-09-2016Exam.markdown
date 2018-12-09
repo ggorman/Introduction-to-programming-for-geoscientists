@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "2016 Exam"
+date:   2018-12-09 13:00:00
+categories: Lecture notes
+---
+
+[Link to notebook](https://notebooks.azure.com/nbarral/libraries/introprog--exam2016)
+
