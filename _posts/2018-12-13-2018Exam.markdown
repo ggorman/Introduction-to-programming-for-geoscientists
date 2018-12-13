@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2018 Exam"
+date:   2018-12-13 13:00:00
+categories: Lecture notes
+---
+
+The link will be activated at the beginning of the exam:
+
+[Link to notebook](https://notebooks.azure.com/nbarral/libraries/introprog-exam2018)
+
